@@ -208,20 +208,19 @@
 <script>
     let video = document.getElementById("landingVideo");
 
-    // Unmute after 1 second (without pausing)
+    
     setTimeout(() => {
         video.muted = false;
     }, 1000);
 
-    // Unmute on mouse move (without pausing)
+    
     document.addEventListener("mousemove", function () {
         if (video.muted) {
             video.muted = false;
         }
     });
 
-    // Ensure audio is allowed on user click (without pausing)
-    document.addEventListener("click", function () {
+    video.addEventListener("click", function () {
         video.muted = false;
         video.play()
     });
