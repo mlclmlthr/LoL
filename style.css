@@ -355,7 +355,7 @@ nav {
 }
 
 .content {
-    z-index: 99;
+    z-index: 999;
     position: absolute;
     bottom: 38%; 
     left: 26.5%;
