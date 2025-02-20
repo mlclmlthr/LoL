@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons/css/line.css">
+    <title>League of Legends</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav__content">
+            <input type="checkbox" id="check" class="ham"/>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <ul>
+                <div class="logo">
+                    <img src="logo.png" alt="lol">
+                </div>
+                <li><a href="#game" class="one">GAME</a></li>
+                <li><a href="#champions" class="two">CHAMPIONS</a></li>
+                <li>
+                    <a href="#news" class="three">NEWS <i class="uil uil-angle-down"></i></a>
+                        <ul>
+                            <li><a href="#">ALL</a></li>
+                            <li><a href="#">GAME UPDATES</a></li>
+                            <li><a href="#">ESPORTS</a></li>
+                            <li><a href="#">MEDIA</a></li>
+                            <li><a href="#">COMMUNITY</a></li>
+                            <li><a href="#">RIOT GAMES</a></li>
+                        </ul>
+                </li>
+                <li><a href="#patchnotes" class="four">PATCH NOTES</a></li>
+                <li>
+                    <a href="#discover" class="five">DISCOVER <i class="uil-angle-down"></i></a>
+                        <ul>
+                            <li><a href="#">HALL OF LEGENDS</a></li>
+                            <li><a href="#">LORE</a></li>
+                        </ul>
+                </li>
+                <li> <a href="#esports" class="six">ESPORTS</a></li>
+                <li><a href="#more" class="seven">MORE</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" class="input" placeholder="Search Here.."/>
+                <button type="button" class="trigger_search"><i class="uil uil-search"></i></button>
+                <div class="left">
+                    <a href="#"><i class="uil uil-globe"></i></a>
+                    <a href="#" class="play">PLAY NOW</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="section" id="home">
+        <div class="landing-page">
+            <video id="landingVideo" autoplay src="noxus2.mp4"></video>
+            <div class="content" id="seeMoreContent" style="display: none;">
+                <a href="">SEE MORE</a>
+            </div>
+        </div>
+    </section>
+    <section class="news" id="featured">
+        <div class="news-container">
+            <div class="featured_news">
+                <h1>FEATURED NEWS</h1>
+            </div>
+            <div class="featured-container">
+                <div class="featured-items">
+                    <img src="kata.jpg" alt="image 1">
+                    <h2>Arcane fans are disappointed that Katarina is straight.</h2>
+                    <p>01/10/2025</p>
+                </div>
+                <div class="featured-items">
+                    <img src="garen.jpg" alt="image 2">
+                    <h2>Garen responded to all the bashings by saying "DEMACIA!"</h2>
+                    <p>01/11/2025</p>
+                </div>
+                <div class="featured-items">
+                    <img src="ellise.jpg" alt="image 3">
+                    <h2>Where are the melons?</h2>
+                    <p>01/12/2025</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="threed" id="champ">
+        <div class="text-banner">
+            <div class="text">
+                <p>CHOOSE YOUR</p>
+                <h1>CHAMPIONS</h1>
+                <p1>Whether you like to dive straight into the fray, support your teammates, or something in between, there’s a spot for you on the Rift.</p1>
+                <div class="btn-contrl">
+                    <a href="#" class="DMC">DISCOVER MORE CHAMPIONS</a>
+                    <a href="#" class="PN">PLAY NOW</a>
+                </div>
+                <div class="roles">
+                    <img src="assassin.png" alt="one">
+                    <img src="fighter.png" alt="two">
+                    <img src="mage.png" alt="three">
+                    <img src="marksman.png" alt="four">
+                    <img src="support.png" alt="five">
+                    <img src="tank.png" alt="six">
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="slides">
+                    
+                <model-viewer class="slide" 
+                    src="akali.glb" 
+                    autoplay 
+                    camera-controls 
+                    camera-controls 
+                    auto-rotate 
+                    disable-zoom 
+                    autoplay 
+                    min-camera-orbit="auto 90deg auto"
+                    max-camera-orbit="auto 90deg auto"
+                    shadow-intensity="1"
+                    ar>
+                </model-viewer>
+                <model-viewer class="slide"
+                    src="panth.glb" 
+                    autoplay 
+                    camera-controls 
+                    camera-controls 
+                    auto-rotate 
+                    disable-zoom 
+                    autoplay 
+                    min-camera-orbit="auto 90deg auto"
+                    max-camera-orbit="auto 90deg auto"
+                    shadow-intensity="1"
+                    ar>
+                </model-viewer>
+                <model-viewer class="slide"
+                    src="ryze.glb" 
+                    autoplay 
+                    camera-controls 
+                    camera-controls 
+                    auto-rotate 
+                    disable-zoom 
+                    autoplay 
+                    min-camera-orbit="auto 90deg auto"
+                    max-camera-orbit="auto 90deg auto"
+                    shadow-intensity="1"
+                    ar>
+                </model-viewer>
+                <model-viewer class="slide"
+                    src="mf.glb" 
+                    autoplay 
+                    camera-controls 
+                    camera-controls 
+                    auto-rotate 
+                    disable-zoom 
+                    autoplay 
+                    min-camera-orbit="auto 90deg auto"
+                    max-camera-orbit="auto 90deg auto"
+                    shadow-intensity="1"
+                    ar>
+                </model-viewer>
+                <model-viewer class="slide"
+                    src="soraka.glb" 
+                    autoplay 
+                    camera-controls 
+                    camera-controls 
+                    auto-rotate 
+                    disable-zoom 
+                    autoplay 
+                    min-camera-orbit="auto 90deg auto"
+                    max-camera-orbit="auto 90deg auto"
+                    shadow-intensity="1"
+                    ar>
+                </model-viewer>
+                <model-viewer class="slide"
+                    src="braum.glb" 
+                    autoplay 
+                    camera-controls 
+                    camera-controls 
+                    auto-rotate 
+                    disable-zoom 
+                    autoplay 
+                    min-camera-orbit="auto 90deg auto"
+                    max-camera-orbit="auto 90deg auto"
+                    shadow-intensity="1"
+                    ar>
+                </model-viewer>
+                
+            </div>
+        </div>
+        
+    </section>
+    
+    
+    
+
+
+
+
+
+
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+    
+    
+</html>
