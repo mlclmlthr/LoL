@@ -114,3 +114,9 @@ roleImages.forEach((image) => {
         roleSound.play();
     });
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const video = document.querySelector("video");
+    if (video) {
+        video.load();
+    }
+});
