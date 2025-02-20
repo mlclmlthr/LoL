@@ -316,8 +316,8 @@ nav {
     }
     
     .content {
-        top: 50%;
-        transform: translateX(-60%);
+        top: 70%;
+        transform: translateX(0%);
         scale: 0.7;
         
     }
